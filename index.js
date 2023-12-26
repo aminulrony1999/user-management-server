@@ -8,8 +8,8 @@ app.use(cors());
 const users = [
     {id : 1, name : 'Aminul', email : 'aminul@gmail.com'},
     {id : 2, name : 'Rinku', email : 'rinku@gmail.com'},
-    {id : 1, name : 'Razon', email : 'razon@gmail.com'},
-    {id : 1, name : 'Mehedi', email : 'mehedi@gmail.com'}
+    {id : 3, name : 'Razon', email : 'razon@gmail.com'},
+    {id : 3, name : 'Mehedi', email : 'mehedi@gmail.com'}
 ]
 app.get("/", (req, res) => {
   res.send("User managament server is running");
